@@ -1,4 +1,4 @@
-<?php
+<?php  //this is registration page
 require 'dbconfig/config.php';
 
 ?>
@@ -51,8 +51,8 @@ require 'dbconfig/config.php';
 <label><b>Fullname:</b></label><br>
 <input name="fullname" type="text" class="inputvalues" placeholder="type your fullname" required/><br>        
 <label><b>Gender:</b></label>
-<input  type="radio" class="radiobtns" name="gender" values="male" checked required/>Male    
-<input  type="radio" class="radiobtns" name="gender" values="female"  required/>Female<br>
+<input  type="radio" class="radiobtns" name="gender" value="male" checked required/>Male    
+<input  type="radio" class="radiobtns" name="gender" value="female"  required/>Female<br>
 <label><b>Dob:</b></label><br>
 <input type="date"  name="dob" max=<?php echo date('Y-m-d')?>  required/><br>
 <label><b>Username:</b></label><br>
